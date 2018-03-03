@@ -1,0 +1,59 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: LANparty Východní čechy
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Oficialní stránka příznivců "rodinné" LANky ve Východních čechách
+  
+  
+  
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://lanparty-vychodnicechy.cz" # the base hostname & protocol for your site
+
+#sidebar
+default-image: webjeda-logo-big.jpg # If there is no featured image in a post then this image will be showed. Also on all pages this image will be showed. Use a 500x250 image.
+
+#footer
+built-by: webjeda
+copyright:
+   name: MIT
+   link: 'https://opensource.org/licenses/MIT'
+sourcecode:
+   link: 'https://github.com/djz88/lanparty-vychodnicechy'
+
+# Build settings
+markdown: kramdown
+permalink: /:title/
+paginate: 6
+paginate_path: /page:num/
+
+# Tracker
+analytics: 
+
+# Comments
+disqus-shortname: 
+
+#social
+facebook: http://facebook.com/1042671789191180
+quora:
+twitter:
+github: http://github.com/n1djz88
+
+#facebook like box
+fb-app-id: 1042671789191180
+fb-page-url: https://www.facebook.com/groups/1010363975755295/
+fb-page-title: LANparty Východní Čechy
+
+# Sass style
+sass:
+  style: compressed
+
+# Ruby Gems
+plugins: [jekyll-paginate, jekyll-seo-tag]
+
