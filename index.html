@@ -4,18 +4,8 @@ layout: default
 
 <div class="home">
  
-  
-    <div class="row pack">
-            <div class="col-md-4 card">
-                <div class="panel panel-default">
-			
-                  <img width="100%" src="{{site.baseurl}}/images/o_nas-caspar-rubin-220712-unsplash.jpg" alt="{{site.title}}">
-                  <div class="panel-body">
-                    <h3 class="panel-title pull-left"> O nás</h3><span class="post-meta pull-right"><small></small></span>
-                  </div>
-                </div>
-                </a>
-            </div>
+	{% include main_menu.html %}
+   
 {% comment %}
 
         {% for post in paginator.posts %}
@@ -41,7 +31,7 @@ layout: default
                 </a>
             </div>
         
-          {% endfor %}
+{% endfor %}
 
     </div> 
     
