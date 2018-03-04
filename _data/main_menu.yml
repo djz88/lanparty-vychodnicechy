@@ -1,15 +1,20 @@
 - name: Místo
   img: misto-g-crescoli-364214-unsplash.jpg
   desc: Lokalita, kde se naše LANky konají
+  link: misto
 - name: Důležité info
   img: informace-brendan-church-182747-unsplash.jpg
   desc: Informace o stravování, dopravě atd.
+  link: info
 - name: Co se kulí
   img: co_hrajeme-_-healthymond-446300-unsplash.jpg
   desc: Na jaké hry tu můžete narazit
+  link: hry
 - name: Historie
   img: historie_akci-dmitrij-paskevic-44124-unsplash.jpg
   desc: Z našich starších událostí
+  link:
   #- name: O nás
   #  img: o_nas-caspar-rubin-220712-unsplash.jpg
   #  desc: Kdo jsme a proč to děláme
+  link:
